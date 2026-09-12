@@ -3,6 +3,7 @@
 import { motion } from "motion/react";
 import { stack } from "@/data/stack";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { TechIcon } from "@/components/ui/TechIcon";
 import { revealUp, stagger, viewportOnce } from "@/lib/motion";
 
 export function Technologies() {
@@ -20,9 +21,10 @@ export function Technologies() {
         {stack.map((group) => (
           <motion.div key={group.label} variants={revealUp} className="bg-bg p-8">
             <dt className="type-meta text-fg-subtle">{group.label}</dt>
-            <dd className="mt-5 flex flex-wrap gap-x-4 gap-y-2.5">
+            <dd className="mt-5 flex flex-wrap gap-x-5 gap-y-3">
               {group.items.map((item) => (
-                <span key={item} className="text-sm text-fg">
+                <span key={item} className="group inline-flex items-center gap-2 text-sm text-fg">
+                  <TechIcon name={item} />
                   {item}
                 </span>
               ))}

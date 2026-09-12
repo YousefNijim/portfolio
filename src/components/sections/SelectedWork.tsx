@@ -67,7 +67,7 @@ export function SelectedWork() {
                   <TechTag key={tech.name}>{tech.name}</TechTag>
                 ))}
                 {project.stack.length > (project.featured ? 8 : 4) && (
-                  <TechTag className="border-dashed">
+                  <TechTag icon={false} className="border-dashed">
                     +{project.stack.length - (project.featured ? 8 : 4)}
                   </TechTag>
                 )}
