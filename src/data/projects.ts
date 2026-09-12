@@ -63,12 +63,26 @@ export const projects: Project[] = [
       ],
     },
     media: {
-      cover: "/media/sho-abalak/cover.png",
-      desktop: ["/media/sho-abalak/admin-1.png", "/media/sho-abalak/admin-2.png"],
+      cover: "/media/sho-abalak/admin/overview.jpg",
+      desktop: [
+        "/media/sho-abalak/admin/overview.jpg",
+        "/media/sho-abalak/admin/analytics.jpg",
+        "/media/sho-abalak/admin/reports.jpg",
+        "/media/sho-abalak/admin/stores.jpg",
+      ],
       phones: [
-        "/media/sho-abalak/customer.png",
-        "/media/sho-abalak/business.png",
-        "/media/sho-abalak/driver.png",
+        "/media/sho-abalak/phones/customer-home.jpg",
+        "/media/sho-abalak/phones/business-menu.png",
+        "/media/sho-abalak/phones/driver-home.png",
+      ],
+      gallery: [
+        "/media/sho-abalak/phones/customer-food.jpg",
+        "/media/sho-abalak/phones/customer-stores.jpg",
+        "/media/sho-abalak/phones/customer-orders.png",
+        "/media/sho-abalak/phones/business-profile.jpg",
+        "/media/sho-abalak/phones/business-orders.jpg",
+        "/media/sho-abalak/phones/driver-earnings.png",
+        "/media/sho-abalak/phones/driver-profile.png",
       ],
     },
   },
@@ -128,8 +142,13 @@ export const projects: Project[] = [
       ],
     },
     media: {
-      cover: "/media/focusoura/cover.png",
-      gallery: [],
+      cover: "/media/focusoura/garden.jpg",
+      phones: [
+        "/media/focusoura/home.jpg",
+        "/media/focusoura/focus-session.jpg",
+        "/media/focusoura/garden.jpg",
+      ],
+      gallery: ["/media/focusoura/profile.jpg", "/media/focusoura/arena.jpg"],
     },
   },
 
@@ -180,8 +199,12 @@ export const projects: Project[] = [
       ],
     },
     media: {
-      cover: "/media/arjwan-istanbul/cover.png",
-      gallery: [],
+      cover: "/media/arjwan-istanbul/best-sellers.jpg",
+      gallery: [
+        "/media/arjwan-istanbul/catalog.jpg",
+        "/media/arjwan-istanbul/product.jpg",
+        "/media/arjwan-istanbul/cart.jpg",
+      ],
     },
   },
 
@@ -228,7 +251,13 @@ export const projects: Project[] = [
       ],
     },
     media: {
-      cover: "/media/codeoura/cover.png",
+      cover: "/media/codeoura/home.jpg",
+      gallery: [
+        "/media/codeoura/section-2.jpg",
+        "/media/codeoura/section-3.jpg",
+        "/media/codeoura/section-4.jpg",
+        "/media/codeoura/section-5.jpg",
+      ],
     },
   },
 ];
