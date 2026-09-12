@@ -149,6 +149,27 @@ body {
   border-top: 1px solid var(--line);
 }
 
+/* ── Technology brand marks ─────────────────────────────────────────── */
+
+/* Both variants are set inline per icon; this picks the one the theme needs. */
+.tech-icon {
+  fill: var(--brand-on-light);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .tech-icon {
+    fill: var(--brand-on-dark);
+  }
+}
+
+:root[data-theme="dark"] .tech-icon {
+  fill: var(--brand-on-dark);
+}
+
+:root[data-theme="light"] .tech-icon {
+  fill: var(--brand-on-light);
+}
+
 /* ── Reduced motion (DESIGN.md §5) ──────────────────────────────────── */
 
 @media (prefers-reduced-motion: reduce) {

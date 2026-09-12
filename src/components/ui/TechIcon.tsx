@@ -7,9 +7,9 @@ interface Props {
 }
 
 /**
- * Brand mark for a technology. Monochrome by default so the page keeps its single
- * accent (DESIGN.md §2); the brand colour appears on hover of the enclosing
- * `.group`, which is where the extra colour is a reward rather than noise.
+ * Brand mark for a technology, in the brand's own colour. The two theme variants
+ * are set as custom properties here and selected by `.tech-icon` in globals.css,
+ * so marks that are near-black or near-white stay visible in both themes.
  */
 export function TechIcon({ name, className }: Props) {
   const icon = getTechIcon(name);
@@ -28,12 +28,13 @@ export function TechIcon({ name, className }: Props) {
       role="img"
       aria-hidden
       viewBox="0 0 24 24"
-      style={{ "--brand": icon.hex } as React.CSSProperties}
-      className={cn(
-        "size-4 shrink-0 fill-current text-fg-subtle transition-colors duration-300",
-        "group-hover:fill-[var(--brand)]",
-        className,
-      )}
+      style={
+        {
+          "--brand-on-light": icon.onLight,
+          "--brand-on-dark": icon.onDark,
+        } as React.CSSProperties
+      }
+      className={cn("tech-icon size-4 shrink-0", className)}
     >
       <path d={icon.path} />
     </svg>
