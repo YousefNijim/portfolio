@@ -159,7 +159,6 @@ Each project gets the display mode its medium deserves.
 | **Sho Abalak** | Multi-app platform | **Hero case study.** Architecture diagram (inline SVG) + 3 phone frames (customer / business / driver) side by side with staggered scroll reveal + desktop admin frame. Private repo → no code link; sell the architecture. |
 | **FocusOura** | Web app | **Live embed.** Scroll-locked browser frame with `<iframe>` of the live site + gamification feature callouts pinned to scroll positions. |
 | **Arjwan Istanbul** | E-commerce | **Live embed + product gallery.** Browser frame, plus a horizontal-scroll strip of storefront screens. Real commercial store — lead with that. |
-| **CodeOura** | Company site | **Live embed, compact.** Single browser frame + short build notes. Smallest card in the grid. |
 
 ### Shared case-study anatomy
 `Hero (title, one-liner, role, year)` → `Context & problem` → `Architecture` → `Key decisions` → `Stack` → `Links` → `Next project`
