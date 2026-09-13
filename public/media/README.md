@@ -57,15 +57,6 @@ Landscape, 1600×1000. Since it's a real store, use real products.
 
 ---
 
-## codeoura/
-| File name | What to capture |
-|---|---|
-| `cover.png` | The homepage |
-
-Landscape, 1600×1000.
-
----
-
 ## shared/
 | File name | What |
 |---|---|
