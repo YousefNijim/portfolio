@@ -207,59 +207,6 @@ export const projects: Project[] = [
       ],
     },
   },
-
-  {
-    slug: "codeoura",
-    title: "CodeOura",
-    tagline: "Web presence for a software services company, designed and built from scratch.",
-    year: "2026 — Present",
-    role: "Designer & Developer",
-    type: "Company Website",
-    displayMode: "live-embed-compact",
-    embedUrl: "https://codeoura.vercel.app",
-    links: [
-      { label: "codeoura.com", href: "https://codeoura.com", kind: "live" },
-      { label: "Source", href: "https://github.com/YousefNijim/codeoura", kind: "github" },
-    ],
-    stats: [
-      { value: "Firestore", label: "dynamic content" },
-      { value: "CI/CD", label: "from GitHub" },
-    ],
-    stack: [
-      t("Next.js", "frontend"),
-      t("TypeScript", "frontend"),
-      t("Firebase Firestore", "database"),
-      t("Vercel", "infra"),
-    ],
-    context: {
-      heading: "Context",
-      body: [
-        "CodeOura needed a public face that could be updated without a redeploy every time a service description or case reference changed.",
-      ],
-    },
-    architecture: {
-      heading: "Build",
-      body: [
-        "Next.js App Router with TypeScript, using Firebase Firestore as the backend for dynamic content management.",
-        "Deployed and maintained on Vercel with continuous delivery from GitHub.",
-      ],
-    },
-    decisions: {
-      heading: "Key decisions",
-      body: [
-        "**Firestore instead of a CMS.** The content model is small and the team is technical — a full CMS would have been more surface area than the site needed.",
-      ],
-    },
-    media: {
-      cover: "/media/codeoura/home.jpg",
-      gallery: [
-        "/media/codeoura/section-2.jpg",
-        "/media/codeoura/section-3.jpg",
-        "/media/codeoura/section-4.jpg",
-        "/media/codeoura/section-5.jpg",
-      ],
-    },
-  },
 ];
 
 export const getProject = (slug: string) => projects.find((p) => p.slug === slug);
