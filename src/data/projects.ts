@@ -14,11 +14,7 @@ export const projects: Project[] = [
     displayMode: "platform",
     featured: true,
     links: [
-      {
-        label: "Admin Dashboard (login required)",
-        href: "https://shu-abalak-admin-dashboard.vercel.app",
-        kind: "dashboard",
-      },
+      { label: "shoabalak.com", href: "https://shoabalak.com", kind: "live" },
     ],
     stats: [
       { value: "6", label: "client apps" },
