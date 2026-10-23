@@ -22,11 +22,11 @@ export const stack: StackGroup[] = [
   },
   {
     label: "Infrastructure",
-    items: ["Railway", "Vercel", "Docker", "GitHub Actions", "Nx", "pnpm"],
+    items: ["Railway", "Vercel", "Docker", "GitHub Actions", "Jest", "Nx", "pnpm"],
   },
   {
-    label: "AI-Assisted",
-    items: ["Claude Code", "Antigravity", "Google Gemini API", "Prompt Engineering"],
+    label: "AI & ML",
+    items: ["Google Gemini API", "Python", "scikit-learn", "Edge Impulse", "Claude Code"],
   },
 ];
 

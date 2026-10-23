@@ -136,7 +136,7 @@ Single-page scroll with dedicated case-study routes.
   00  Hero               Name, role, one-line positioning, availability chip
   01  Selected Work      4 case-study cards (see §7)
   02  Technologies       Grouped stack, mono tags, marquee strip
-  03  Experience         Timeline: Travel Time Agency, Al-Rowad, Halic University
+  03  Experience         Timeline: Alemi Medya, Travel Time Agency, Al-Rowad, Haliç University
   04  About              Short profile + portrait + languages
   05  Contact            Email, LinkedIn, GitHub, CV download
 

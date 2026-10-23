@@ -2,6 +2,8 @@ import {
   siClaude,
   siDocker,
   siDrizzle,
+  siEdgeimpulse,
+  siEsbuild,
   siExpo,
   siExpress,
   siFirebase,
@@ -9,6 +11,7 @@ import {
   siGithubactions,
   siGooglegemini,
   siJavascript,
+  siJest,
   siJsonwebtokens,
   siNestjs,
   siNextdotjs,
@@ -17,9 +20,11 @@ import {
   siPnpm,
   siPostgresql,
   siPrisma,
+  siPython,
   siReact,
   siRedis,
   siRailway,
+  siScikitlearn,
   siSocketdotio,
   siTailwindcss,
   siTypescript,
@@ -73,7 +78,7 @@ function themed(hex: string): { onLight: string; onDark: string } {
 
 /**
  * Maps the technology names used in `src/data/` to their brand mark.
- * Names absent here (REST, Antigravity, Prompt Engineering) are not brands and
+ * Names absent here (REST) are not brands and
  * render as text with a neutral marker.
  */
 const icons: Record<string, { path: string; hex: string }> = {
@@ -103,9 +108,14 @@ const icons: Record<string, { path: string; hex: string }> = {
   "GitHub Actions": siGithubactions,
   Nx: siNx,
   pnpm: siPnpm,
+  Jest: siJest,
+  esbuild: siEsbuild,
   "Claude Code": siClaude,
   "Google Gemini": siGooglegemini,
   "Google Gemini API": siGooglegemini,
+  Python: siPython,
+  "scikit-learn": siScikitlearn,
+  "Edge Impulse": siEdgeimpulse,
 };
 
 export function getTechIcon(name: string): TechIconData | null {
